@@ -76,8 +76,8 @@ class Example(Frame):
         closeBtn.grid(row=4, column=3, padx=5, pady=3, sticky=W+E)
     
     def centreWindow(self):
-        w = 500
-        h = 300
+        w = 450
+        h = 280
         sw = self.parent.winfo_screenwidth()
         sh = self.parent.winfo_screenheight()
         x = (sw - w)/2
