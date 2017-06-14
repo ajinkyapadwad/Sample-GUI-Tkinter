@@ -77,7 +77,7 @@ class Example(Frame):
     
     def centreWindow(self):
         w = 450
-        h = 280
+        h = 295
         sw = self.parent.winfo_screenwidth()
         sh = self.parent.winfo_screenheight()
         x = (sw - w)/2
