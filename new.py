@@ -6,16 +6,16 @@ from tkinter import *
 from tkinter import Tk, ttk
 import tkinter as tk
 import PIL 
-from PIL import ImageTk,Image
+# from PIL import ImageTk,Image
 
 
 class Example(Frame):
 
     def __init__(self, parent):
-        bg = Image.open("bg.jpg")
-        background_image=ImageTk.PhotoImage(bg)
-        background_label = Label(parent, image=background_image)
-        background_label.place(x=0, y=0, relwidth=1, relheight=1)
+        # bg = Image.open("bg.jpg")
+        # background_image=ImageTk.PhotoImage(bg)
+        # background_label = Label(parent, image=background_image)
+        # background_label.place(x=0, y=0, relwidth=1, relheight=1)
         
 
         Frame.__init__(self, parent)
